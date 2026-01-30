@@ -1,0 +1,186 @@
+{
+  "users": {
+    "user001": {
+      "user_id": "user001",
+      "name": "Dr. Sarah Johnson",
+      "role": "Faculty",
+      "priority_score": 1,
+      "email": "sarah.johnson@university.edu",
+      "created_at": "2026-01-30T23:22:34.025980"
+    },
+    "user002": {
+      "user_id": "user002",
+      "name": "Prof. Michael Chen",
+      "role": "Faculty",
+      "priority_score": 1,
+      "email": "michael.chen@university.edu",
+      "created_at": "2026-01-30T23:22:34.026214"
+    },
+    "user003": {
+      "user_id": "user003",
+      "name": "Alice Smith",
+      "role": "Student",
+      "priority_score": 2,
+      "email": "alice.smith@student.university.edu",
+      "created_at": "2026-01-30T23:22:34.026323"
+    },
+    "user004": {
+      "user_id": "user004",
+      "name": "Bob Wilson",
+      "role": "Student",
+      "priority_score": 2,
+      "email": "bob.wilson@student.university.edu",
+      "created_at": "2026-01-30T23:22:34.026394"
+    },
+    "user005": {
+      "user_id": "user005",
+      "name": "Dr. Emily Davis",
+      "role": "Faculty",
+      "priority_score": 1,
+      "email": "emily.davis@university.edu",
+      "created_at": "2026-01-30T23:22:34.026457"
+    },
+    "user006": {
+      "user_id": "user006",
+      "name": "Charlie Brown",
+      "role": "Student",
+      "priority_score": 2,
+      "email": "charlie.brown@student.university.edu",
+      "created_at": "2026-01-30T23:22:34.026502"
+    },
+    "user007": {
+      "user_id": "user007",
+      "name": "Diana Martinez",
+      "role": "Student",
+      "priority_score": 2,
+      "email": "diana.martinez@student.university.edu",
+      "created_at": "2026-01-30T23:22:34.026550"
+    },
+    "user008": {
+      "user_id": "user008",
+      "name": "Prof. James Taylor",
+      "role": "Faculty",
+      "priority_score": 1,
+      "email": "james.taylor@university.edu",
+      "created_at": "2026-01-30T23:22:34.026601"
+    },
+    "user009": {
+      "user_id": "user009",
+      "name": "John_Doe",
+      "role": "Student",
+      "priority_score": 2,
+      "email": "john.doe@student.university.edu",
+      "created_at": "2026-01-30T23:36:42.446502"
+    }
+  },
+  "resources": {
+    "res001": {
+      "resource_id": "res001",
+      "name": "Computer Lab A",
+      "capacity": 30,
+      "location": "Building 1, Floor 2",
+      "description": "Main computer lab with 30 workstations",
+      "created_at": "2026-01-30T23:22:34.026673"
+    },
+    "res002": {
+      "resource_id": "res002",
+      "name": "Seminar Hall 1",
+      "capacity": 50,
+      "location": "Building 2, Floor 1",
+      "description": "Large seminar hall for presentations",
+      "created_at": "2026-01-30T23:22:34.026741"
+    },
+    "res003": {
+      "resource_id": "res003",
+      "name": "Conference Room B",
+      "capacity": 12,
+      "location": "Building 1, Floor 3",
+      "description": "Small conference room for meetings",
+      "created_at": "2026-01-30T23:22:34.026794"
+    },
+    "res004": {
+      "resource_id": "res004",
+      "name": "Physics Lab",
+      "capacity": 20,
+      "location": "Science Building, Floor 2",
+      "description": "Physics laboratory with equipment",
+      "created_at": "2026-01-30T23:22:34.026837"
+    },
+    "res005": {
+      "resource_id": "res005",
+      "name": "Library Study Room",
+      "capacity": 8,
+      "location": "Library, Floor 3",
+      "description": "Quiet study room for group work",
+      "created_at": "2026-01-30T23:22:34.026878"
+    },
+    "res006": {
+      "resource_id": "res006",
+      "name": "Auditorium",
+      "capacity": 200,
+      "location": "Main Building",
+      "description": "Large auditorium for events",
+      "created_at": "2026-01-30T23:22:34.026932"
+    },
+    "res007": {
+      "resource_id": "res007",
+      "name": "Chemistry Lab",
+      "capacity": 25,
+      "location": "Science Building, Floor 1",
+      "description": "Chemistry laboratory",
+      "created_at": "2026-01-30T23:22:34.026989"
+    },
+    "res008": {
+      "resource_id": "res008",
+      "name": "Meeting Room C",
+      "capacity": 6,
+      "location": "Administration Building",
+      "description": "Small meeting room",
+      "created_at": "2026-01-30T23:22:34.027036"
+    }
+  },
+  "bookings": {
+    "0e49d293-1dd1-4dad-a95f-93a22956303a": {
+      "booking_id": "0e49d293-1dd1-4dad-a95f-93a22956303a",
+      "request_id": "06018669-bc20-4f2e-9d23-c018e3a8f6e0",
+      "user_id": "user001",
+      "resource_id": "res001",
+      "start_time": "2026-02-01T14:00:00",
+      "end_time": "2026-02-01T16:00:00",
+      "confirmed_at": "2026-01-30T23:35:01.742676"
+    }
+  },
+  "booking_requests": {
+    "9f60a771-5e37-460e-a1f2-4ec7a4f570b1": {
+      "request_id": "9f60a771-5e37-460e-a1f2-4ec7a4f570b1",
+      "user_id": "user003",
+      "resource_id": "res001",
+      "start_time": "2026-02-01T14:00:00",
+      "end_time": "2026-02-01T16:00:00",
+      "request_timestamp": "2026-01-30T23:33:11.611077",
+      "status": "cancelled",
+      "priority_score": 2
+    },
+    "06018669-bc20-4f2e-9d23-c018e3a8f6e0": {
+      "request_id": "06018669-bc20-4f2e-9d23-c018e3a8f6e0",
+      "user_id": "user001",
+      "resource_id": "res001",
+      "start_time": "2026-02-01T14:00:00",
+      "end_time": "2026-02-01T16:00:00",
+      "request_timestamp": "2026-01-30T23:33:33.729777",
+      "status": "confirmed",
+      "priority_score": 1
+    }
+  },
+  "waiting_queues": {
+    "res001": [],
+    "res002": [],
+    "res003": [],
+    "res004": [],
+    "res005": [],
+    "res006": [],
+    "res007": [],
+    "res008": []
+  },
+  "saved_at": "2026-01-30T23:37:01.861571"
+}

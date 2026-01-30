@@ -1,0 +1,65 @@
+{
+  "users": {
+    "faculty1": {
+      "user_id": "faculty1",
+      "name": "Dr. Smith",
+      "role": "Faculty",
+      "priority_score": 1,
+      "email": "smith@university.edu",
+      "created_at": "2026-01-30T23:21:46.539519"
+    },
+    "student1": {
+      "user_id": "student1",
+      "name": "Alice Johnson",
+      "role": "Student",
+      "priority_score": 2,
+      "email": "alice@student.university.edu",
+      "created_at": "2026-01-30T23:21:46.539670"
+    },
+    "student2": {
+      "user_id": "student2",
+      "name": "Bob Wilson",
+      "role": "Student",
+      "priority_score": 2,
+      "email": "bob@student.university.edu",
+      "created_at": "2026-01-30T23:21:46.539736"
+    }
+  },
+  "resources": {
+    "lab1": {
+      "resource_id": "lab1",
+      "name": "Test Lab",
+      "capacity": 20,
+      "location": "Building 1",
+      "description": "Test laboratory",
+      "created_at": "2026-01-30T23:21:46.539787"
+    }
+  },
+  "bookings": {
+    "6cca824f-358a-4e29-9ca7-7f49f339c137": {
+      "booking_id": "6cca824f-358a-4e29-9ca7-7f49f339c137",
+      "request_id": "5d2772a1-dd34-4b72-a2f3-b8a9f107589f",
+      "user_id": "student1",
+      "resource_id": "lab1",
+      "start_time": "2026-02-01T14:00:00",
+      "end_time": "2026-02-01T16:00:00",
+      "confirmed_at": "2026-01-30T23:21:46.539928"
+    }
+  },
+  "booking_requests": {
+    "5d2772a1-dd34-4b72-a2f3-b8a9f107589f": {
+      "request_id": "5d2772a1-dd34-4b72-a2f3-b8a9f107589f",
+      "user_id": "student1",
+      "resource_id": "lab1",
+      "start_time": "2026-02-01T14:00:00",
+      "end_time": "2026-02-01T16:00:00",
+      "request_timestamp": "2026-01-30T23:21:46.539913",
+      "status": "confirmed",
+      "priority_score": 2
+    }
+  },
+  "waiting_queues": {
+    "lab1": []
+  },
+  "saved_at": "2026-01-30T23:21:46.540301"
+}
